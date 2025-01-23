@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Envelope</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="background">
+    <div class="wrapper" id="wrapper">
+      <div class="lid one"></div>
+      <div class="lid two"></div>
+      <div class="envelope"></div>
+      <div class="letter" id="letter">
+        <button class="close-btn hidden" id="close-btn">X</button>
+        <i class="fas fa-heart heart" id="heart"></i>
+        <p class="note hidden" id="note">
+          Hey sweetie! Will you do me the pleasure of being my valentine this year? XOXO
+        </p>
+      </div>
+    </div>
+    <div class="open-letter-container">
+      <button class="open-letter-btn" id="open-letter-btn">Open Letter</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
